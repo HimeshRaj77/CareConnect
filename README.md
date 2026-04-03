@@ -1,6 +1,6 @@
 # CareConnect Lite
 
-Live Hosted Link: careconnect-production-0a8d.up.railway.app
+Live Hosted Link: [careconnect-production-0a8d.up.railway.app](https://careconnect-production-0a8d.up.railway.app/)
 ## NGO Use-Case
 CareConnect Lite is a lightweight triage and support portal for a local healthcare NGO. Patients or family members can submit urgent medical or support concerns through a simple form. The system stores requests centrally so volunteers and coordinators can prioritize outreach quickly.
 
