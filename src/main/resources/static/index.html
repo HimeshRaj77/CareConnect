@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareConnect Lite | Support Request</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-labelledby="form-title">
+      <p class="eyebrow">CareConnect Lite</p>
+      <h1 id="form-title">Medical & Support Request</h1>
+      <p class="intro">
+        Share your situation with us. Our team reviews each request and reaches out as quickly as possible.
+      </p>
+
+      <form id="support-form" novalidate>
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+        </div>
+
+        <div class="field">
+          <label for="contact">Contact Info</label>
+          <input id="contact" name="contact" type="text" autocomplete="tel" required />
+        </div>
+
+        <div class="field">
+          <label for="message">Describe Your Situation</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            maxlength="2000"
+            placeholder="Example: My mother has had persistent fever and weakness for two days..."
+            required
+          ></textarea>
+        </div>
+
+        <button id="submit-btn" type="submit">Submit Request</button>
+        <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

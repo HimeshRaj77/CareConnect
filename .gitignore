@@ -1,0 +1,25 @@
+# Build outputs
+/target/
+
+# IDE and editor files
+/.idea/
+/.vscode/
+*.iml
+
+# OS artifacts
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment and local-only config
+.env
+.env.*
+/src/main/resources/application-local.properties
+
+# AI-generated/internal notes
+/IMPLEMENTATION_REPORT.md
+
+# Docker runtime leftovers
+*.pid
