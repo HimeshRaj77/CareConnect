@@ -1,7 +1,6 @@
 # CareConnect Lite
 
-Live Hosted Link: _Add your deployed URL here_
-
+Live Hosted Link: careconnect-production-0a8d.up.railway.app
 ## NGO Use-Case
 CareConnect Lite is a lightweight triage and support portal for a local healthcare NGO. Patients or family members can submit urgent medical or support concerns through a simple form. The system stores requests centrally so volunteers and coordinators can prioritize outreach quickly.
 
@@ -93,8 +92,3 @@ docker run -p 8080:8080 \
   -e LLM_MODEL='gemini-2.5-flash' \
   careconnect-lite
 ```
-
-## Internship Demo Tips
-- Show one successful submission flow from UI to DB.
-- Show AI-generated `aiUrgency` and `aiSummary` in the stored record.
-- Explain fallback behavior (`UNASSIGNED`) for API failures to highlight reliability engineering.
